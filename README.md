@@ -26,29 +26,37 @@ Virtual DOM is awesome. It allows us to express our application's view
 as a function of its state. But existing solutions were way way too
 bloated, too slow, lacked features, had an API biased towards OOP
 and/or lacked features I needed.
+虚拟DOM很强大，允许根据状态将应用程序的视图表达为一个函数。但是现有的解决方法太臃肿太慢，没有特色，
+偏向于面向对象变成的API可能没有需要的特色。
 
-## Introduction
+## Introduction 介绍
 
 Snabbdom consists of an extremely simple, performant and extensible
 core that is only ≈ 200 SLOC. It offers a modular architecture with
 rich functionality for extensions through custom modules. To keep the
 core simple, all non-essential functionality is delegated to modules.
+Snabbdom由非常简单的、高性能的、可扩展的（只有大约200SLOC）的核心代码构成。提供了模块化的架构，通过定制模块扩展丰富的功能。
+为了保持核心代码简单，所有不必要的功能都交给了模块去完成。
 
 You can mold Snabbdom into whatever you desire! Pick, choose and
 customize the functionality you want. Alternatively you can just use
 the default extensions and get a virtual DOM library with high
 performance, small size and all the features listed below.
+你可以随心所欲的使用Snabbdom！选择定制需要的功能。也可以只用默认的扩展获取一个高性能、小体积和具有如下所有特性的虚拟DOM库。
 
 ## Features
 
-* Core features
+* Core features 核心特性
   * About 200 SLOC – you could easily read through the entire core and fully
     understand how it works.
-  * Extendable through modules.
+    大概200SLOC - 可以很容易的阅读所有的核心代码了解他是如何工作的。
+  * Extendable through modules. 可以通过模块扩展。
   * A rich set of hooks available, both per vnode and globally for modules,
     to hook into any part of the diff and patch process.
+    丰富的配置选项。
   * Splendid performance. Snabbdom is among the fastest virtual DOM libraries
     in the [Virtual DOM Benchmark](http://vdom-benchmark.github.io/vdom-benchmark/).
+    高性能。Snabbdom是最快的虚拟DOM库之一。
   * Patch function with a function signature equivalent to a reduce/scan
     function. Allows for easier integration with a FRP library.
 * Features in modules
