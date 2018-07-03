@@ -2,6 +2,7 @@
 
 A virtual DOM library with focus on simplicity, modularity, powerful features
 and performance.
+一个注重于简单、模块化、高性能特色的虚拟DOM库。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/snabbdom.svg)](https://badge.fury.io/js/snabbdom) [![npm downloads](https://img.shields.io/npm/dm/snabbdom.svg)](https://www.npmjs.com/package/snabbdom)
 
